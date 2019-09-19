@@ -1,0 +1,133 @@
+#fp-nav ul li a span{
+    background-color: darkorchid!important;
+}
+
+/*直接进入购物中心*/
+.go{
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    z-index: 1;
+}
+/*上下动的动画*/
+.updown{
+    animation: updown 4s infinite;
+}
+@keyframes updown{
+    0%{ display: none;
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+}
+
+/*第一个section*/
+.section1 {
+    background: #fadd67 url(../images/t1fpyqfltdxxaiulhh-990-600.png) no-repeat center bottom;
+}
+.fly{
+    position: absolute;
+    right: 20%;
+    top: 10%;
+}
+.goods{
+    position: absolute;
+    left: 50%;
+    margin-left: -405px;
+    bottom: 150px;
+}
+.section1-img1{
+    position: absolute;
+    left: 50%;
+    bottom: 335px;
+    margin-left: -200px;
+
+}
+
+
+/*第二个section*/
+.section2 {
+    background: #84a2d4 url(../images/t1zdgpfi8exxca6rfn-2000-600.png) no-repeat center bottom;
+    z-index: 2;
+}
+.search{
+    width: 222px;
+    height: 45px;
+    background:  url(../images/search.png) 0 0 no-repeat;
+    position: absolute;
+    left: 50%;
+    bottom: 300px;
+    margin-left: 320px;
+    display: none;
+}
+.search-words{
+    position: absolute;
+    left: 95px;
+    top: 5px;
+    display: none;
+}
+.search-img{
+    position: absolute;
+    left: 50%;
+    bottom: 300px;
+    margin-left: -100px;
+    display: none;
+}
+.section2-sofa{
+    position: absolute;
+    width: 200px;
+    right: 50%;
+    bottom: 197px;
+    margin-right: -280px;
+    display: none;
+}
+
+
+
+/*第三屏幕*/
+.section3 {
+    background: #ef674d;
+    z-index: 1;
+}
+.section4 {
+    background: #fed url(../images/t1iresfnxaxxca6rfn-2000-600.png) no-repeat center bottom;
+
+}
+.section5 {
+    background: #d04759 url(../images/t1yisqfa4exxa3gmkg-2000-1500.png);
+    /* overflow: hidden; */
+    perspective: 500;
+    -webkit-perspective: 500;
+    z-index: 1;
+}
+.section6 {
+    background: #84d9ed url(../images/t1dvj.fn0gxxb0_fua-2500-600.png) no-repeat 25% 100%;
+}
+.section7 {
+    background: #8ac060 url(../images/t1wf1tfctaxxa3gmkg-2000-1500.png) no-repeat 50% 100%;
+}
+.section8 {
+    background: url(../images/ksgw.png);
+}
+.beginShopping{
+    position: absolute;
+    left: 50%;
+    width: 290px;
+    transform: translateX(-50%);
+    bottom: 500px;
+}
+.begin-img1{
+    position: absolute;
+    z-index: 1;
+}
+.begin-img2{
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.section8-hand{
+    position: absolute;
+}
+
